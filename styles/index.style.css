@@ -20,10 +20,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 89.5%;
 }
 
 li {
     float: left;
+    width: 33.33%;
 }
 
 li a {
