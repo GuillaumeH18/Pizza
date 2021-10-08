@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/jeuImage.style.css">
-    <title>Carte</title>
+    <script src="../scripts/jeuImage.js" async></script>
+    <title>Jeu des images</title>
 </head>
 <body>
     <section id ="navbar">
         <ul>
-            <li><a href="../pages/jeuImage.html">Jeu des Image</a></li>
+            <li><a href="../pages/jeuImage.html">Jeu des Images</a></li>
             <li><a href="../pages/jeuImage.html">Calculatrice</a></li>
             <li><a href="../pages/jeuImage.html">Juste prix</a></li>
         </ul>
     </section>
-    <section id="jeu">
-        <ul>
-            <li>1</li>
-    </section>
+    <div class="jeu">
+        <div class="conteneur">
+            <img src="../assets/Image1.png" alt="" id ="img1" onclick="tournerImage()" >
+            <img src="../assets/Image2.png" alt="" id ="img2" onclick="tournerImage()">
+            <img src="../assets/Image4.png" alt="" id ="img4" onclick="tournerImage()">
+            <img src="../assets/Image3.png" alt="" id ="img3" onclick="tournerImage()" >
+    </div>
 </body>
 </html>

@@ -1,9 +1,5 @@
 body {
-    background-color: #111;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-color :grey;
 }
 
 #navbar {
@@ -20,7 +16,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 89.5%;
+    width: 100%;
 }
 
 li {
@@ -43,12 +39,23 @@ li a:hover {
     background-color: #111;
 }
 
-#logo {
-    width: 10%;
-    height: 10%;
+
+#contenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    margin: 8px 29px;
+    background-color: #333;
   }
 
-html{
-    height: 100vh;
+p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 100%;
 }
-

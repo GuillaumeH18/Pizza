@@ -1,9 +1,5 @@
 body {
-    background-color: #111;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-color :grey;
 }
 
 #navbar {
@@ -20,7 +16,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 89.5%;
+    width: 100%;
 }
 
 li {
@@ -43,27 +39,25 @@ li a:hover {
     background-color: #111;
 }
 
-#logo {
-    width: 10%;
-    height: 10%;
-  }
-
-html{
-    height: 100vh;
-}
-
-#jeu {
+.jeu {
+    margin: 8px 29px;
+    height: 530px;
+    background-color: #333;    
     display: flex;
-    align-items: left;
-    justify-content:left;
-    padding: 20px 20px;
-    margin: 8px 40px;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    color: white;
-  }
-
-  li#jeu {
-    width: 100%;
+    justify-content: center;
 }
+
+.conteneur{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}    
+img{
+    width: 35%;
+    margin-bottom: 10px;
+}                             
+
+  
+  
