@@ -1,5 +1,5 @@
 body {
-    background-image:url("../assets/fond.jpg");
+    background-color: #111;
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -52,7 +52,7 @@ html{
     height: 100vh;
 }
 
-#pizza {
+#jeu {
     display: flex;
     align-items: left;
     justify-content:left;
@@ -64,6 +64,6 @@ html{
     color: white;
   }
 
-  li#pizza {
+  li#jeu {
     width: 100%;
 }

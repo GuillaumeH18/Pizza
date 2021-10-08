@@ -1,5 +1,5 @@
 body {
-    background-image:url("../assets/fond.jpg");
+    background-color: #111;
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -52,11 +52,3 @@ html{
     height: 100vh;
 }
 
-#map {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 20px;
-    margin: 8px 40px;
-    background-color: #333;
-  }
